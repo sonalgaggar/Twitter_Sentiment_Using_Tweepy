@@ -1,4 +1,0 @@
-wordnet
-stopwords
-SnowballStemmer
-WordNetLemmatizer
