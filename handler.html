@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Title Of My Page</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <style>
+    </style>
+  </head>
+  <body>
+    <div id='first'>Tweet analyzer</div>
+    <img src="../static/img_pool/twitter.jpg" style="width: 150px; position: relative; left: 500px;" >
+    <div id='eight'>
+      <div style="font-size: 15px; font-style: italic;position: relative; left: 430px ;top: -200px;" > '------ created by Sonal Maheshwari------'</div> 
+    <form action="/twit2" method="POST">
+      <label for="txt">Enter the exact twitter handle of the Personality (with @)</label><br>
+      <input type="text" id="txt" name="txt" placeholder="with @" style="width: 400px; height: 50px ; border-style: solid;"><br>
+      <input type="submit" >
+    </form>
+    </div>
+    <a href="{{ url_for('submit_data') }}" class="topic">go back</a>
+    </body>
+    </html>

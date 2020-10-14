@@ -1,0 +1,147 @@
+
+
+body{
+    background-color: white; 
+     background-image: url('../img_pool/twitter.jpg');
+    
+
+     background-position: 70% 50%;
+  
+  
+     background-size: 5% 5%;
+    background-repeat: no-repeat;
+    background-position: right bottom; 
+    
+    margin: 0;
+}
+#first{
+    border:  solid rgb(230, 226, 226);
+    border-radius: 18px;
+    position: absolute;
+    left:700px;
+    top:50px;
+   
+    margin:2px;
+    padding: 2px;
+    width: 20%;
+    height: 50px;
+    background-color: rgb(185, 181, 181);
+    outline: 4px solid black;
+    color: rgb(4, 23, 27);
+    font-style: italic;
+    font-weight: bold;
+    font-size: 40px;
+    text-align:center;
+}
+#second{
+    left: 350px;
+    top: 250px;
+    position: relative;
+    font-size: 20px;
+}
+#last{
+  left: 350px;
+    top: 250px;
+    position: relative;
+    font-size: 20px;
+}
+
+ .third{
+    position: relative;
+    left: 200px;
+    top: 130px;
+    font-size: 23px;
+    
+     
+ } 
+ 
+.four{
+    font-weight: bold;
+    font-size: 35px;
+    font-family: sans-serif;
+    left: 200px;
+    top: 110px;
+    position: relative;
+}
+.five{
+    left: 200px;
+    top: 175px;
+    position: relative;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  input[type=submit] {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+  } 
+  .topic { font-size: 20px;
+    height: 600px;
+    position: relative;
+        top: 700px;
+        left: 110px;
+    
+      
+     text-decoration: none;
+     border: none;
+    border-radius: 4px;
+    cursor: pointer;
+ }
+ 
+ a:link {
+    text-decoration: none;
+    color: rgb(39, 49, 192);
+    
+  }
+  a:hover {
+    position: relative;
+    font-size: 30px;
+    text-decoration: none;
+    }
+
+#eight{
+    left: 350px;
+    top: 200px;
+    position: relative;
+    font-size: 20px;
+}
+.seven{
+    position:relative;
+    top: 220px;
+    left: 200px;
+    
+    font-weight: bold;
+    font-size: 25px;
+
+}
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  .myflex{
+    background: #f8fafc;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 200px;
+    align-items: baseline;
+
+}
+
+.myflex > div{
+    background: rgb(241, 235, 235);
+    width: 380px;
+    height: 80px;
+    font-size: 25px;
+    margin: 8px;
+    
+}

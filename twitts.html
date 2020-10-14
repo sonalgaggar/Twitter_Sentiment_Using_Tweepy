@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>to get the majority of sentiments of 30 tweets related to particular search word</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  </head>
+<body>
+
+  <div id='first'>Tweet analyzer</div>
+  <img src="../static/img_pool/twitter.jpg" style="width: 150px; position: relative; left: 500px;" >
+  <div id='eight'>
+    <div style="font-size: 15px; font-style: italic;position: relative; left: 430px;top: -200px; "> '------ created by Sonal Maheshwari------'</div> 
+<form action="/twit1" method="POST">
+  
+  <label for="fname">search word:</label>
+  <input type="text" id="fname" name="fname" placeholder="search word with #.." style="height:50px wi
+  200px"><br>
+  <label for="dat">search date:</label>
+
+  <input type="date" id="dat" name="dat">
+  <input type="submit" value="analyze" >
+
+</form>
+</div> 
+
+            
+            {% if name %}
+            <div class='seven'>majority of tweets having Sentiment
+              {{ sentiment }}</div>
+               {% endif %}
+
+  
+
+
+
+        <!--Image -->
+            <div class="col-sm-6"></div>
+              {% if name %}
+                <div class="col-sm-2"><h1>Emotion</h1>
+                <img src="{{ image }}" alt="Image">
+              {% endif %}
+            </div>
+        <!--Image-->
+      </div>
+    </div>
+<div class="col-sm-6"></div>
+              {% if name %}
+                <div class="col-sm-2">
+                  <img src="data:image/png;base64,{{ result2 }}" width="500">
+              {% endif %}
+            </div>
+        <!--Image-->
+      </div>
+    </div>
+    <a href="{{ url_for('submit_data') }}" class="topic" >go back</a>
+</body>
+</html>

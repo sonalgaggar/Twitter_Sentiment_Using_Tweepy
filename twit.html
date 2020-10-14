@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>to get the majority of sentiments of 20 tweets related to particular search word</title>
+</head>
+<body>
+
+
+
+
+    <div class="col-sm-6"></div>
+    {% if name %}
+      <div class="col-sm-2"><h1>bar plot</h1>
+        <img src="data:image/png;base64,{{ res }}" width="500">
+    {% endif %}
+  </div>
+<!--Image-->
+</div>
+</div>
+<div class="col-sm-6"></div>
+              {% if name %}
+                <div class="col-sm-2"><h1>Emotion</h1>
+                <img src="{{ image }}"  >
+              {% endif %}
+            </div>
+        <!--Image-->
+      </div>
+    </div>
+<a href="{{ url_for('submit_data') }}">click me</a>
+  
+
+</body>
+</html>
