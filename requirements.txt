@@ -1,9 +1,7 @@
 Keras==2.2.0
 tensorflow==1.8.0
-numpy
 pickle
 nltk
-pandas
 Pillow==5.2.0
 Flask==1.1.1
 gunicorn==19.9.0
