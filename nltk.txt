@@ -1,8 +1,3 @@
-brown
-punkt
-maxent_treebank_pos_tagger
-movie_reviews
 wordnet
-stopwords
-SnowballStemmer
-WordNetLemmatizer
+pros_cons
+reuters
