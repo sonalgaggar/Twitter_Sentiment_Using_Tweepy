@@ -53,12 +53,12 @@ emojis = {':)': 'smile', ':-)': 'smile', ';d': 'wink', ':-E': 'vampire', ':(': '
           '@@': 'eyeroll', ':-!': 'confused', ':-D': 'smile', ':-0': 'yell', 'O.o': 'confused',
           '<(-_-)>': 'robot', 'd[-_-]b': 'dj', ":'-)": 'sadsmile', ';)': 'wink',
           ';-)': 'wink', 'O:-)': 'angel','O*-)': 'angel','(:-D': 'gossip', '=^.^=': 'cat'}
-token = pickle.load(open(r'C:\Users\gagga\PycharmProjects\twitter sentimental analysis\vectoriser.pickle','rb'))
+token = pickle.load(open(r'vectoriser.pickle','rb'))
 
 
 
 from keras.models import load_model
-model1 = load_model(r"C:\Users\gagga\PycharmProjects\twitter sentimental analysis\model_new.h5")
+model1 = load_model(r"model_new.h5")
 
 
 def majority_element(num_list):
