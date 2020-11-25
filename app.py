@@ -115,10 +115,10 @@ import tweepy as tw
 import pandas as pd
  
 app=Flask(__name__)
-consumer_key= 'R2bLxigwfn3mIHTPOL8j4n7BE'
-consumer_secret= 'SHEi2b2hYgwVd3ch9Y3KuIYMfIQ9Y7U6lcO0y4DQR19fKU59Kv'
-access_token= '1275859079546589186-hzxsKjWhUAR61Z8IqNpz3URm25BKuX'
-access_token_secret= 'xRFUpmVXNndzPSbGExjci0XsLyYLHUxerMe7xtX92Whn0'
+consumer_key= ''
+consumer_secret= ''
+access_token= ''
+access_token_secret= ''
 auth = tw.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
 api = tw.API(auth, wait_on_rate_limit=True)
