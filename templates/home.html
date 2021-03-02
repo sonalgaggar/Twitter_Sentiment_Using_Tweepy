@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Title Of My Page</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <style>
+    </style>
+  </head>
+  <body style="background-color: rgb(251, 252, 251);">
+
+    <div id='first'>Tweet analyzer</div>
+    <img src="../static/img_pool/twitter.jpg" style="width: 150px; position: relative; left: 500px;" >
+    <div style="font-size: 15px; font-style: italic;position: relative; left: 770px"> '------ created by Sonal Maheshwari------'</div> 
+    <div class='four'>This tool performs the following task------</div>
+    <div class='third' >
+      <ul >
+        <li> Fetches 50 most recent tweets.</li>
+        <li> generate word cloud of tweets.</li>
+        <li> perform sentiment analysis and display result in form of bar graph.</li>
+      </ul>
+      </div>
+<div class='five'> Analyze the tweet of your favourite personalities by choosing option below -- </div>
+<div id='last'>
+  <form action="/predict" method="POST">
+    
+    <label for="analyse">Choose one option :</label>
+    <select name="analyse" id="analyse">
+      <option value="searchbywords"><div class=>tweets related to a particular #word</option>
+      <option value="byuser">get tweets of a particular twitter handler</option>
+    </select>
+    <input type="submit" >
+  
+  </form>
+  </div>                                                                              
+</body>
+</html>
+
