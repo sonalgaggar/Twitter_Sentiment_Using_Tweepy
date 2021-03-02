@@ -7,3 +7,7 @@
 # UI
 
 <img src="Screenshot (307).png" alt="Not available">
+
+<img src="Screenshot (308).png" alt="Not available">
+<br>
+<img src="Screenshot (309).png" alt="Not available">
